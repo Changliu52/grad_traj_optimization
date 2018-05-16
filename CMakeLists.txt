@@ -12,6 +12,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -g")
 
 
 set(NLopt_DIR /usr/local/lib/cmake/nlopt)
+set(NLopt_LIBRARIES /usr/local/lib/libnlopt.so.0)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
